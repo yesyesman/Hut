@@ -1,0 +1,51 @@
+<--The CSS code for the website-->
+
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  color: #fff;
+  font-size: 70px;
+}
+p {
+  color: #fff;
+  font-size: 19px;
+  font-family: monospace;
+  bottom: 10px;
+}
+
+body {
+  background-color: #191919;
+}
+
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.change .bar1 {
+  -webkit-transition: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.bottom{
+  font-family: monospace;
+  color: #fff;
+  bottom: 10px
+}
