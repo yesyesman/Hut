@@ -1,0 +1,5 @@
+<--The Javascript code for the website-->
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
