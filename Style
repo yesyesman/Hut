@@ -6,46 +6,38 @@ h1 {
   font-family: monospace;
   color: #fff;
   font-size: 70px;
+  transition-duration: 0.4s;
 }
 p {
   color: #fff;
   font-size: 19px;
   font-family: monospace;
   bottom: 10px;
+  transition-duration: 0.4s;
+
 }
 
 body {
-  background-color: #191919;
+  background-color: #171717;
 }
 
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s
-}
-
-.container {
+.btn{
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.6s;
+  background: linear-gradient(to left, red 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .5s ease-out;
 }
 
-.change .bar1 {
-  -webkit-transition: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.bottom{
-  font-family: monospace;
-  color: #fff;
-  bottom: 10px
+.btn:hover{
+  background-position: right bottom
 }
